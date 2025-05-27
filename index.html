@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Donut'Lethu</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    @font-face {
+      font-family: 'lucida-calligraphy-regular';
+      src: url('fonts/lucida-calligraphy-regular.ttf') format('truetype');
+    }
+
+    @font-face {
+      font-family: 'ShineBubbleDeco-MVKJx';
+      src: url('fonts/ShineBubbleDeco-MVKJx.ttf') format('truetype');
+    }
+
+    body {
+      background-color: #FA7DBB;
+      font-family: 'Poppins', Arial, sans-serif;
+      color: #FFFFFF;
+      line-height: 1.4;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #F483B1
+
+      padding: 10px 20px;
+      display: flex;
+      align-items: center;
+      box-shadow: 0 4px px rgba(0, 0, 0, 0.1);
+      position: relative;
+
+    }
+
+    .logo {
+      width: 70px;
+      height: auto;
+      opacity: 0;
+      animation: fadeIn 3s ease forwards;
+    }
+
+    h1 {
+      font-family: 'lucida-calligraphy-regular', cursive;
+      font-size: 1.9em;
+      margin: 0;
+      color: #FF66D8;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #FF0672;
+      font-weight: bold;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 40px 10px;
+      background-color:white(200, 0.9);
+      margin: 20px auto;
+      border-radius: 16px;
+
+      animation: fadeIn 1.5s ease-in-out;
+    }
+
+    .hero h2 {
+      font-family: 'ShineBubbleDeco-MVKJx', cursive;
+      font-size: 5em;
+      margin-bottom: 6px;
+      background-color: #EB8BDC  
+      color: #FC7DD0;
+      animation: fadeIn 3s ease forwards;
+    }
+
+    .hero p {
+      font-size: 3em;
+    }
+
+    .donut-row {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 15px;
+      margin-top: 30px;
+    }
+
+    .donut-pic {
+      width: 100%;
+      max-width: 180px;
+      border-radius: 10px;
+      transition: transform 0.3s;
+    }
+
+    .donut-pic:hover {
+      transform: scale(1.05);
+    }
+
+    section {
+      padding: 20px 10px;
+
+    }
+
+    h3 {
+      font-family: 'lucida-calligraphy-regular', cursive;
+      text-align: center;
+      font-size: 3em;
+      margin-bottom: 20px;
+      color: #FFB2E6;
+    }
+
+    .menu,
+    .mockup-preview {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .menu img,
+    .mockup-preview img {
+      width: 300%;
+      max-width: 280px;
+      border-radius: 10px;
+    }
+
+    .contact p {
+      text-align: center;
+      font-size: 1em;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+      background-color: #F584C3;
+    }
+
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(-30px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  </style>
+</head>
+
+<body>
+<header>
+    <img src="images/logo.png" alt="Donut'Lethu Logo" class="logo" />
+    <h1><strong>Donut'Lethu</strong></h1>
+<nav>
+    <ul>
+      <li><a href="#">Menu</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="hero">
+<section class="banner">
+  <div class="banner-content">
+    <img src="images/logo.png" alt="Donut'Lethu Logo" class="banner-logo" />
+      <div class="sparkle-container">
+  <div class="sparkle sparkle1 star"></div>
+  <div class="sparkle sparkle2 donut"></div>
+  <div class="sparkle sparkle3 sparkle-shape"></div>
+  <div class="sparkle sparkle4 star"></div>
+  <div class="sparkle sparkle5 donut"></div>
+  <div class="sparkle sparkle6 sparkle-shape"></div>
+   <div class="sparkle sparkle7 cupcake"></div>       
+</div>
+  </div>  
+</section>
+        <div></div>
+      <h2>Welcome To Donut'Lethu</h2>
+      <p>Deliciously fun, seriously sweet donuts made with love and flair.</p>
+      <div class="donut-row">
+        <img src="images/roll1.png" alt="Donut 1" class="donut-pic" />
+        <img src="images/roll2.png" alt="Donut 2" class="donut-pic" />
+        <img src="images/roll3.png" alt="Donut 3" class="donut-pic" />
+        <img src="images/roll4.png" alt="Donut 4" class="donut-pic" />
+        <img src="images/roll7.png" alt="Donut 7" class="donut-pic" /> 
+      </div>
+</section>
+
+    <section class="menu">
+<h3>🍩 Our Donuts</h3>
+      <img src="images/menu1.png" alt="Classic Donut" />
+      <img src="images/menu2.png" alt="Chocolate Glazed Donut" />
+</section>
+
+<section class="about">
+        <section class="about about-section"> ... </section>
+      <h3>✨ About Donut'Lethu</h3>
+      <p style="text-align: center;">Donut'Lethu is a vibrant donut brand that celebrates color, creativity, and the sweet side of life. Our donuts are handcrafted to bring joy and flavor to every moment.</p>
+</section>
+<h3 class="fancy-heading">📦 Our Donut Packaging</h3>
+  <div class="packaging-wrapper">
+    <button class="scroll-btn left" onclick="scrollPackaging('left')">‹</button>
+
+    <div class="package-row" id="packageRow">
+      <img src="images/mockup1.png" alt="Donut box design">
+      <img src="images/mockup2.png" alt="Takeaway coffee cup design">
+      <img src="images/mockup.png" alt="Sticker label design">
+      <img src="images/mockup4.png" alt="Apron design">
+      <img src="images/mockup5.png" alt="Delivery bag design">
+    <img src="images/mockup6.png" alt="cuppuchino design">
+    <img src="images/mockup7.png" alt="mug design">
+    <img src="images/mockup8.png" alt="hoodie design">
+       <img src="images/mockup9.png" alt="stickers design"> 
+    </div>
+
+    <button class="scroll-btn right" onclick="scrollPackaging('right')">›</button>
+  </div>
+</section>
+   <section id="contact" class="section contact-section">
+  <h2>Contact</h2>
+  <p>You can reach us on WhatsApp or by email.</p>
+
+  <div style="text-align:center; margin-top: 30px;">
+    <a href="https://wa.me/27793142917" class="whatsapp-btn" target="_blank">
+      <img src="images/whatsapp-icon.png" alt="WhatsApp" />
+      Chat With Us on WhatsApp
+    </a>
+  </div>
+<section class="contact">
+<h3>📞 Contact Us</h3>
+      <p>📧 Email: hello@donutlethu.co.za</p>
+      <p>📍 Address: 123 Sweet Street, Dessertville, SA</p>
+    </section>
+      <!-- 🔔 Scrolling Banner START -->
+  <div class="scroll-banner">
+    <div class="scroll-text">
+      Fresh Donuts Daily ✨ • Handmade with Love 🍩 • Taste the Joy 💕 • Donut'Lethu ✨ •
+    </div>
+  </div>
+  <!-- 🔔 Scrolling Banner END -->
+
+  <footer>
+    <p>&copy; 2025 Donut'Lethu. All rights reserved.</p>
+  </footer>
+
+<script>
+  function scrollPackaging(direction) {
+    const row = document.getElementById('packageRow');
+    const scrollAmount = 300;
+
+    if (direction === 'left') {
+      row.scrollBy({ left: -scrollAmount, behavior: 'smooth' });
+    } else {
+      row.scrollBy({ left: scrollAmount, behavior: 'smooth' });
+    }
+  }
+    function openMenu() {
+  document.getElementById("navOverlay").style.display = "flex";
+}
+
+function closeMenu() {
+  document.getElementById("navOverlay").style.display = "none";
+}
+
+// Close when user scrolls
+window.addEventListener("scroll", () => {
+  closeMenu();
+});
+
+</script>
+
+</body>
+</html>
